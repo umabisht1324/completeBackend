@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Industry Level Backend",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"nodemon src/index.js"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "backend",
@@ -15,6 +15,7 @@
   "author": "uma bisht",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^3.1.7"
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3"
   }
 }
